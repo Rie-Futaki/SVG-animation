@@ -1,0 +1,303 @@
+/* styles from SVG file */
+.st0 {
+    mask: url(#mask);
+}
+
+.st1 {
+    filter: url(#luminosity-noclip);
+}
+
+.st2 {
+    fill: #a494b2;
+}
+
+.st3 {
+    filter: url(#luminosity-noclip1);
+}
+
+.st4 {
+    stroke-width: .88px;
+}
+
+.st4, .st5 {
+    fill: #ffda40;
+}
+
+.st4, .st5, .st6, .st7, .st8, .st9, .st10, .st11, .st12, .st13, .st14, .st15, .st16, .st17, .st18, .st19, .st20, .st21, .st22, .st23 {
+    stroke: #544750;
+}
+
+.st4, .st5, .st6, .st7, .st8, .st9, .st10, .st11, .st12, .st13, .st14, .st15, .st16, .st17, .st18, .st19, .st20, .st21, .st22, .st23, .st24, .st25 {
+    stroke-miterlimit: 10;
+}
+
+.st5 {
+    stroke-width: .98px;
+}
+
+.st26 {
+    fill: url(#radial-gradient);
+}   
+
+.st6 {
+    fill: #f478c1;
+}
+
+.st6, .st19 {
+    stroke-width: .6px;
+}
+
+.st7 {
+    fill: url(#linear-gradient1);
+}
+
+.st7, .st8, .st9, .st10, .st11, .st12, .st13, .st18, .st23 {
+    stroke-width: .44px;
+}
+
+.st8 {
+    fill: url(#linear-gradient2);
+}
+
+.st9 {
+    fill: url(#linear-gradient5);
+}
+
+.st10 {
+    fill: url(#linear-gradient7);
+}
+
+.st11 {
+    fill: url(#linear-gradient6);
+}
+
+.st12 {
+    fill: url(#linear-gradient3);
+}
+
+.st13 {
+    fill: url(#linear-gradient4);
+}
+
+.st27 {
+    fill: #f7dd9a;
+}
+
+.st28 {
+    mask: url(#mask-1);
+}
+
+.st14 {
+    stroke-width: .5px;
+}
+
+.st14, .st29 {
+    fill: #f8f7f9;
+}
+
+.st15 {
+    stroke-width: .54px;
+}
+
+.st15, .st16 {
+    fill: #96eae8;
+}
+
+.st16 {
+    stroke-width: .6px;
+}
+
+.st30, .st17 {
+    fill: #544750;
+}
+
+.st31, .st24, .st25 {
+    fill: #fff;
+}
+
+.st32 {
+    fill: #d3d0d6;
+}
+
+.st33, .st22 {
+    fill: #f4cee7;
+}
+
+.st17, .st24, .st25 {
+    stroke-linecap: round;
+}
+
+.st18 {
+    fill: #f255b2;
+}
+
+.st19, .st20, .st21 {
+    fill: #f2afd4;
+}
+
+.st20 {
+    stroke-width: .38px;
+}
+
+.st21 {
+    stroke-width: .34px;
+}
+
+.st34 {
+    fill: #54474f;
+}
+
+.st35 {
+    fill: #c7c4cb;
+}
+
+.st36 {
+    opacity: .57;
+}
+
+.st37 {
+    fill: url(#radial-gradient1);
+}
+
+.st22 {
+    stroke-width: .81px;
+}
+
+.st23 {
+    fill: url(#linear-gradient);
+}
+
+.st24 {
+    stroke-width: .58px;
+}
+
+.st24, .st25 {
+    stroke: #ffea6a;
+}
+
+.st25 {
+    stroke-width: .34px;
+}
+
+/* General styles */
+body{
+    background-color: #a494b2;
+    text-align: center;
+}
+
+svg{
+    height: 90vh;
+}
+
+/* Animation keyframes*/
+
+@keyframes earFlickLeft{
+    0%{
+        trasnform: rotate(3deg);
+        transform-origin: 70px 100px;
+    }
+    50%{
+        transform: rotate(-3deg);
+        transform-origin: 70px 100px;
+    }
+    100%{
+        trasnform: rotate(3deg);
+        transform-origin: 70px 100px;
+    }
+}
+
+@keyframes earFlickRight{
+    0%{
+        trasnform: rotate(-3deg);
+        transform-origin: 70px 100px;
+    }
+    50%{
+        transform: rotate(3deg);
+        transform-origin: 70px 100px;
+    }
+    100%{
+        trasnform: rotate(-3deg);
+        transform-origin: 70px 100px;
+    }
+}
+
+@keyframes noseTwitch{
+    60%{
+        d: path("M98.07,134.42l-6.96-4.14c-.45-.27-.93.33-.55.7,2.3,2.3,4.96,4.24,7.51,5.53.14.07.3.07.44-.01,2.61-1.47,4.97-3.63,6.84-6.15.31-.42-.23-.94-.64-.63l-6.12,4.66c-.15.11-.35.12-.5.03Z");
+    }
+    70%{
+        d: path("M98.1,133.9l-7-3.6c-.4-.3-.9.3-.6.7,2.3,2.3,5,4.2,7.5,5.5.1,0,.3,0,.4,0,2.6-1.5,5-3.6,6.8-6.1.3-.4-.2-.9-.6-.6l-5.9,4.1c-.2.1-.5,0-.6,0h0Z");
+    }
+    80%{
+        d: path("M98.07,134.42l-6.96-4.14c-.45-.27-.93.33-.55.7,2.3,2.3,4.96,4.24,7.51,5.53.14.07.3.07.44-.01,2.61-1.47,4.97-3.63,6.84-6.15.31-.42-.23-.94-.64-.63l-6.12,4.66c-.15.11-.35.12-.5.03Z");
+    }
+    90%{
+        d: path("M98.1,133.9l-7-3.6c-.4-.3-.9.3-.6.7,2.3,2.3,5,4.2,7.5,5.5.1,0,.3,0,.4,0,2.6-1.5,5-3.6,6.8-6.1.3-.4-.2-.9-.6-.6l-5.9,4.1c-.2.1-.5,0-.6,0h0Z");
+    }
+    100%{
+        d: path("M98.07,134.42l-6.96-4.14c-.45-.27-.93.33-.55.7,2.3,2.3,4.96,4.24,7.51,5.53.14.07.3.07.44-.01,2.61-1.47,4.97-3.63,6.84-6.15.31-.42-.23-.94-.64-.63l-6.12,4.66c-.15.11-.35.12-.5.03Z");
+    }
+}
+
+@keyframes moveSparkles{
+    0%{
+        transform:translate(1px);
+    }
+    33%{
+        transform:translate(-1px);
+    }
+    66%{
+        transform:translate(1px);
+    }
+    100%{
+        transform:translate(1px);
+    }
+}
+
+/* Creating classes for svg parts */
+
+.moveEarLeft{
+    animation-name: earFlickLeft;
+    animation-duration: 1s;
+    animation-iteration-count: 2;
+}
+
+.moveEarRight{
+    animation-name: earFlickRight;
+    animation-duration: 1s;
+    animation-iteration-count: 2;
+}
+
+.spin-yellow{
+    transform: rotate(360deg);
+    transform-origin: 123px 75px;
+    transition: transform 2s;
+}
+
+.spin-blue{
+    transform: rotate(360deg);
+    transform-origin: 68px 78px;
+    transition: transform 2s;
+}
+
+.spin-pink{
+    transform: rotate(-360deg);
+    transform-origin: 84px 78px;
+    transition: transform 2s;
+}
+
+#nose-main{
+    animation-name: noseTwitch;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+.hide{
+    display:none;
+}
+
+.sparkle{
+    animation-name: moveSparkles;
+    animation-duration: 0.3s;
+    animation-iteration-count: 3;
+}
