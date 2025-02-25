@@ -6,6 +6,7 @@ A personal project creating a SVG animation using CSS, JavaScript, HTML, and Ado
 Things I want to add:
 
 HTML:
+Make HTML code neater (fix tag indents)
 Responsive layout using HTML bootstrap
 Some headings and descriptive text about the project
 
