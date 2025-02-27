@@ -1,3 +1,11 @@
+:root{
+    --bg-1: #a494b2;
+}
+
+.body{
+    background-color: var(--bg-1);
+}
+
 /* styles from SVG file */
 .st0 {
     mask: url(#mask);
